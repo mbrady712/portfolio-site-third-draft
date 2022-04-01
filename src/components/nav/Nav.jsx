@@ -1,4 +1,5 @@
 import "./nav.css"
+import resume from '../Michael_Brady_Resume.pdf'
 
 export default function Nav() {
   return (
@@ -21,6 +22,9 @@ export default function Nav() {
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#contact">Contact</a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href={resume}>Resume</a>
               </li>
             </ul>
           </div>
