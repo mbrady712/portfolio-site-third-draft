@@ -1,0 +1,64 @@
+.projects{
+    height: 100vh;
+}
+.carousel{
+    width: 60%;
+    margin-left: 20%;
+}
+.caption{
+    text-decoration: none;
+    font-size: 1.5em;
+    color: white;
+}
+.caption:hover{
+    color: white;
+}
+.carousel-caption{
+    margin-bottom: 5%;
+    background-color: rgba(22,91,170,.9);
+    border-radius: 5px;
+}
+.carousel-caption:hover{
+    background-color: rgba(59,164,120,.9);
+    transition: .25s;
+}
+/*320px — 480px: Mobile devices*/
+@media only screen and (min-width: 320px) and (max-width: 480px){
+    .carousel{
+        width: 100%;
+        margin: 0;
+    }
+    .projects{
+        height: auto;
+    }
+    .carousel-caption{
+        font-size: .75em;
+    }
+}
+    
+/*481px — 768px: iPads, Tablets*/
+@media only screen and (min-width: 481px) and (max-width: 768px){
+    .projects{
+        height: auto;
+    }
+    .carousel{
+        width: 100%;
+        margin: 0;
+    }
+    .carousel-caption{
+        font-size: .75em;
+    }
+}
+    
+/*769px — 1024px: Small screens, laptops*/
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+    .carousel{
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+    
+/*1025px — 1205px: Desktops, large screens*/
+@media only screen and (min-width: 1025px) and (max-width: 1205px){
+
+}

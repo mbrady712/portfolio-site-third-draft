@@ -1,0 +1,83 @@
+.wrapper{
+    display: flex;
+}
+.orb{
+    background: radial-gradient(circle at 8vw 8vw, #53e3a6, #000);
+    width: 10vw;
+    border-radius: 50%;
+    height: 10vw;
+    animation-name: orb;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+    position: relative;
+    margin-top: -10vw;
+    animation-delay: random(30000) + ms;
+    z-index: -1;
+    opacity: 0;
+}
+.orb2{
+    @extend .orb;
+    animation-delay: random(30000) + ms;
+}
+.orb3{
+    @extend .orb;
+    animation-delay: random(30000) + ms;
+}
+.orb4{
+    @extend .orb;
+    animation-delay: random(30000) + ms;
+}
+.orb5{
+    @extend .orb;
+    animation-delay: random(30000) + ms;
+}
+.orb6{
+    @extend .orb;
+    animation-delay: random(30000) + ms;
+}
+.orb7{
+    @extend .orb;
+    animation-delay: random(30000) + ms;
+}
+.orb8{
+    @extend .orb;
+    animation-delay: random(30000) + ms;
+}
+.orb9{
+    @extend .orb;
+    animation-delay: random(30000) + ms;
+}
+.orb10{
+    @extend .orb;
+    animation-delay: random(30000) + ms;
+}
+@keyframes orb{
+    0%{
+         opacity: 0;
+    }
+    50%{
+        opacity: 100%;
+    }
+    100%{
+        transform: translateY(-800vh);
+    }
+}
+/*320px — 480px: Mobile devices*/
+@media only screen and (min-width: 320px) and (max-width: 480px){
+
+}
+    
+/*481px — 768px: iPads, Tablets*/
+@media only screen and (min-width: 481px) and (max-width: 768px){
+    
+}
+    
+/*769px — 1024px: Small screens, laptops*/
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+
+}
+    
+/*1025px — 1205px: Desktops, large screens*/
+@media only screen and (min-width: 1025px) and (max-width: 1205px){
+
+}

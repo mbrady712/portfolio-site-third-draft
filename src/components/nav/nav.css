@@ -1,0 +1,34 @@
+.nav{
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+.nav-link{
+    color: #F8f0e3 !important;
+    font-family: Helvetica;
+}
+.nav-link:hover{
+    color: black !important;
+    transition: .25s;
+}
+/*320px — 480px: Mobile devices*/
+@media only screen and (min-width: 320px) and (max-width: 480px){
+
+}
+    
+/*481px — 768px: iPads, Tablets*/
+@media only screen and (min-width: 481px) and (max-width: 768px){
+    
+}
+    
+/*769px — 1024px: Small screens, laptops*/
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+
+}
+    
+/*1025px — 1205px: Desktops, large screens*/
+@media only screen and (min-width: 1025px) and (max-width: 1205px){
+
+}

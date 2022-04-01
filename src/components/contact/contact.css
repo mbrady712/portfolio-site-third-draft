@@ -1,0 +1,97 @@
+form{
+    margin-left: 25% !important;
+    background-color: rgba(255,255,255,.5);
+    padding: 2%;
+    border-radius: 10px;
+    width: 50% !important;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.error{
+    color: red;
+}
+.submit{
+    width: 20%;
+    margin-top: 2%;
+    border-radius: 5px;
+    background-color: #F8f0e3;
+    color:black;
+    
+}
+.submit:hover{
+    background-color: #165baa;
+    color:#F8f0e3;
+    transition: .25s;
+}
+footer{
+    text-align: center;
+    margin-top: 4%;
+    color: black !important;
+    border-top: solid black 3px;
+    border-radius: 50%;
+}
+.fa-linkedin{
+    padding-right: 1%;
+    text-decoration: none;
+    color: black !important;
+}
+.fa-github{
+    text-decoration: none;
+    color: black !important;
+}
+.fa-envelope{
+    padding-left: 1%;
+    text-decoration: none;
+    color: black !important;
+    transform: scale(1.5);
+}
+.fa-phone-alt{
+    color: black !important;
+}
+.copy{
+    font-size: .75em;
+}
+.fa:hover{
+    color: #F8f0e3 !important;
+    transition: .25s;
+}
+.fas:hover{
+    color: #F8f0e3 !important;
+    transition: .25s;
+}
+/*320px — 480px: Mobile devices*/
+@media only screen and (min-width: 320px) and (max-width: 480px){
+    form{
+        width: 100% !important;
+        margin: 0 !important;
+    }
+    .submit{
+        width: 30%;
+    }
+    footer{
+        font-size: .75em;
+    }
+    .fa-linkedin{
+        padding-right: 2%;
+    }
+    .fa-envelope{
+        padding-left: 2%;
+    }
+}
+    
+/*481px — 768px: iPads, Tablets*/
+@media only screen and (min-width: 481px) and (max-width: 768px){
+    form{
+        width: 80% !important;
+        margin-left: 10% !important;
+    }
+}
+    
+/*769px — 1024px: Small screens, laptops*/
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+
+}
+    
+/*1025px — 1205px: Desktops, large screens*/
+@media only screen and (min-width: 1025px) and (max-width: 1205px){
+
+}

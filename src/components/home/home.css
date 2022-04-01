@@ -1,0 +1,46 @@
+.home{
+    height: 100vh;
+}
+.portrait{
+    border-radius: 50%;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*320px — 480px: Mobile devices*/
+@media only screen and (min-width: 320px) and (max-width: 480px){
+    .home{
+        height: 50vh;
+        padding-top: 15%;
+    }
+    .portrait{
+        width: 100px;
+    }
+}
+    
+/*481px — 768px: iPads, Tablets*/
+@media only screen and (min-width: 481px) and (max-width: 768px){
+    .home{
+        height: auto;
+        padding-top: 5%;
+    }
+    .portrait{
+        width: 150px;
+    }
+}
+    
+/*769px — 1024px: Small screens, laptops*/
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+    .home{
+        padding-top: 5%;
+    }
+}
+    
+/*1025px — 1205px: Desktops, large screens*/
+@media only screen and (min-width: 1025px) and (max-width: 1205px){
+    .home{
+        padding-top: 5%;
+    }
+}
