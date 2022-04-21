@@ -1,10 +1,19 @@
+.contact{
+    background-color: #116466;
+}
 form{
     margin-left: 25% !important;
-    background-color: rgba(255,255,255,.5);
+    background-color: #D9B08C;
     padding: 2%;
     border-radius: 10px;
     width: 50% !important;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Courier New', Courier, monospace;
+}
+input{
+    background-color: #D1E8E2 !important;
+}
+textarea{
+    background-color: #D1E8E2 !important;
 }
 .error{
     color: red;
@@ -13,49 +22,50 @@ form{
     width: 20%;
     margin-top: 2%;
     border-radius: 5px;
-    background-color: #F8f0e3;
+    background-color: #FFCB9A;
     color:black;
     
 }
 .submit:hover{
-    background-color: #165baa;
-    color:#F8f0e3;
+    background-color: #116466 !important;
+    color:white;
     transition: .25s;
 }
 footer{
     text-align: center;
     margin-top: 4%;
-    color: black !important;
-    border-top: solid black 3px;
+    color: #FFCB9A !important;
+    border-top: #FFCB9A solid 3px;
     border-radius: 50%;
+    font-family: 'Courier New', Courier, monospace;
 }
 .fa-linkedin{
     padding-right: 1%;
     text-decoration: none;
-    color: black !important;
+    color: #FFCB9A !important;
 }
 .fa-github{
     text-decoration: none;
-    color: black !important;
+    color: #FFCB9A !important;
 }
 .fa-envelope{
     padding-left: 1%;
     text-decoration: none;
-    color: black !important;
+    color: #FFCB9A !important;
     transform: scale(1.5);
 }
 .fa-phone-alt{
-    color: black !important;
+    color: #FFCB9A !important;
 }
 .copy{
     font-size: .75em;
 }
 .fa:hover{
-    color: #F8f0e3 !important;
+    color: #D1E8E2 !important;
     transition: .25s;
 }
 .fas:hover{
-    color: #F8f0e3 !important;
+    color: #D1E8E2 !important;
     transition: .25s;
 }
 /*320px — 480px: Mobile devices*/

@@ -6,11 +6,11 @@
     z-index: 2;
 }
 .nav-link{
-    color: #F8f0e3 !important;
-    font-family: Helvetica;
+    color: #D1E8E2 !important;
+    font-family: 'Courier New', Courier, monospace;
 }
 .nav-link:hover{
-    color: black !important;
+    color: #FFCB9A !important;
     transition: .25s;
 }
 /*320px — 480px: Mobile devices*/

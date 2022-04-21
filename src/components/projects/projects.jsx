@@ -21,7 +21,7 @@ export default function Projects() {
           <div className="carousel-item active">
             <img src="./assets/pianowithgeorgia.png" className="d-block w-100" alt="Piano with Georgia"/>
             <div className="carousel-caption">
-              <a href="https://pianowithgeorgia.com" className="caption">Piano with Georgia</a>
+              <a href="https://pianowithgeorgia.com" className="caption red-tooltip" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Tooltip on bottom">Piano with Georgia</a>
             </div>
           </div>
           <div className="carousel-item">

@@ -1,16 +1,9 @@
-body {
-  background: -webkit-linear-gradient(top left, #165baa 0%, #53e3a6 100%);
-}
+
 h1 {
   text-align: center;
   padding: 3%;
-  color: #F8f0e3;
-  font-family: Helvetica;
-}
-hr{
-  color:#F8f0e3;
-  width: 80%;
-  margin-left: 10%;
+  color: #FFCB9A;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 /*Responsive Styles*/
