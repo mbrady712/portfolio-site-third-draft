@@ -1,9 +1,12 @@
 
+body{
+  background: -webkit-linear-gradient(top left, #165baa 0%, #53e3a6 100%);
+}
 h1 {
   text-align: center;
   padding: 3%;
-  color: #FFCB9A;
-  font-family: 'Courier New', Courier, monospace;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /*Responsive Styles*/

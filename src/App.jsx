@@ -4,6 +4,7 @@ import Contact from './components/contact/contact';
 import Home from './components/home/home';
 import Nav from './components/nav/Nav';
 import Projects from './components/projects/projects';
+import Animation from './components/animation/animation'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <About/>
       <Projects/>
       <Contact/>
+      <Animation/>
     </div>
   );
 }

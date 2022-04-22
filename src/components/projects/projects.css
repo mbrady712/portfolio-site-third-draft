@@ -1,6 +1,5 @@
 .projects{
     height: 100vh;
-    background-color: #2C3531;
 }
 .carousel{
     width: 60%;
@@ -9,16 +8,16 @@
 .caption{
     text-decoration: none;
     font-size: 1.5em;
-    font-family: 'Courier New', Courier, monospace;
-    color: #116466;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
-.caption:hover{
-    color: #D1E8E2;
+.carousel-caption:hover{
+    background-color: rgba(83, 227, 166, 0.9);
     transition: .25s;
 }
 .carousel-caption{
     margin-bottom: 5%;
-    background-color: rgba(255,203,154,.9);
+    background-color: rgba(22, 91, 170, 0.9);
     border-radius: 5px;
 }
 /*320px — 480px: Mobile devices*/
